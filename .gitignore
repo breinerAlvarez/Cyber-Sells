@@ -1,0 +1,7 @@
+node_modules
+dist
+folder/file.ext
+*.pdf
+.DS_Store
+.env
+
