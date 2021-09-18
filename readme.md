@@ -6,8 +6,9 @@ Cyber-Sells es un proyecto que consiste en el desarrollo de una aplicación web 
 
 Equipo de trabajo:
 
+Hola, me llamo Steven Bolgueman Villanueva, tengo 32 años, soy de Galapa, Atlántico, realizé mi pregrado en Historia en la Universidad del Atlántico y también tengo formación en Pedagogía.
+Aparte de los temas sociales y pedagógicos, me llama la atención el mundo de la tecnología y espero aprender mucho en este curso de Programación. Rol: Scrum Master. 
+
 Saludos, mi nombre es Breiner Álvarez. Estudiante de ingeniería Industrial, me considero una persona apasionada por el aprendizaje, actualmente me encuentro en construcción de mi perfil profesional en tecnología con enfoque hacia la ciencia de datos y business intelligence. Rol: Administrador de base de datos.
 
-Hola, me llamo Steven Bolgueman Villanueva, tengo 32 años, soy de Galapa, Atlántico, realizé mi pregrado en Histroia en la Univerdad del Atlántico y también tengo formación en Pedagogía.
-Me gusta mucho el mundo de la tecnología y espero aprender mucho de este curso de Programación.
 
