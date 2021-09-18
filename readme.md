@@ -6,4 +6,4 @@ Cyber-Sells es un proyecto que consiste en el desarrollo de una aplicación web 
 
 Equipo de trabajo:
 
-Breiner Álvarez. Administrador de base de datos
+Saludos, mi nombre es Breiner Álvarez. Estudiante de ingeniería Industrial, me considero una persona apasionada por el aprendizaje, actualmente me encuentro en construcción de mi perfil profesional en tecnología con enfoque hacia la ciencia de datos y business intelligence. Rol: Administrador de base de datos.
