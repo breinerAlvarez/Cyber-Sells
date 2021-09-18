@@ -11,4 +11,4 @@ Aparte de los temas sociales y pedagógicos, me llama la atención el mundo de l
 
 Saludos, mi nombre es Breiner Álvarez. Estudiante de ingeniería Industrial, me considero una persona apasionada por el aprendizaje, actualmente me encuentro en construcción de mi perfil profesional en tecnología con enfoque hacia la ciencia de datos y business intelligence. Rol: Administrador de base de datos.
 
-
+Mi nombre es Biepser Perez, tengo 24 años, vivo en La estrella Antioquia, Estudiante de ING. Mecatronica en el ITM, y soy el desarrollador del equipo.
