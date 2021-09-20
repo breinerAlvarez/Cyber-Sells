@@ -14,7 +14,8 @@ Saludos, mi nombre es Breiner Álvarez. Estudiante de ingeniería Industrial, me
 Mi nombre es Biepser Perez, tengo 24 años, vivo en La estrella Antioquia, Estudiante de ING. Mecatronica en el ITM, y soy el desarrollador del equipo.
 
 Mi Nombre es Julian Betancourt, tengo 32 años. Actualmente trabajo en control de calidad y estoy interesado en ampliar mis conocimientos en el area de software para poder hacer automatizacion de pruebas. Soy el Product Owner del equipo. 
-hola, soy Eneidy B, vivo en Chinchiná Caldas, estoy fascinada con el mundo de la programación. Muchas gracias a todos por aceptarme.
+
+Hola, soy Eneidy B, vivo en Chinchiná Caldas, estoy fascinada con el mundo de la programación. Muchas gracias a todos por aceptarme.
 
 Cynthia Linero. Analista
 
