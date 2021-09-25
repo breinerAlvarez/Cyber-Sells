@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+body{
+  background: #d2e5d7;
+  min-height: 100vh;
+}
+
+.login{
+  position: absolute;
+  width: 334px;
+  height: 399px;
+  left: 516px;
+  top: 134px;
+  background: #587AA7;
+  border-radius: 25px;
+}
+
+.encabezado{
+  position: relative;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  top: 50px;
+  font-weight: bold;
+}
+
+input[type="text"] 
+{
+  position: relative;
+  width: 186px;
+  height: 32px;
+  left: 74px;
+  top: 105px;
+  background: rgba(196, 196, 196, 0.8);
+  border-radius: 10px;
+  font-size: 21px;
+  border: none;
+}
+
+input[type="password"]
+{
+  position: relative;
+  width: 186px;
+  height: 32px;
+  left: 74px;
+  top: 130px;
+  background: rgba(196, 196, 196, 0.8);
+  border-radius: 10px;
+  font-size: 21px;
+  border: none;
+}
+
+input[type="password"],
+input[type="text"]
+{
+  color:#FFFFFF;
+  font-size: 20px;
+  padding-left: 8px;
+  border: 2px solid #587AA7;
+} 
+
+input[type="text"]:focus,
+input[type="password"]:focus
+{
+  outline: none;
+  border: 2px solid #19f2faaf;
+}
+
+input::placeholder{
+  padding-bottom: 17px;
+  font-size: 17px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+#log-in{
+  position: relative;
+  top: 200px;
+  right: 97px;
+  /*left: 97px;
+  top: 180px; */
+  width: 141px;
+  height: 32px;
+  background: #49B2B6;
+  border-radius: 50px;
+  border: none;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size:16px;
+  color: #FFFFFF;
+}
+
+#log-in:hover{
+  cursor: pointer;
+  background: #1bafb4;
+}
+
+#log-in:focus{
+  outline: none;
+  border: 2px solid #19f2faaf;
+}
+
+/* a{
+  position: relative;
+  left: 74px;
+  top: 150px;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+ a:visited{
+  color:#FFFFFF;
+}
+
+a:active{
+  color:#19f2faaf;
+}
+
+a:focus{
+  outline: none;
+  color:#19f2faaf;
+} */
