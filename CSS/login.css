@@ -19,6 +19,17 @@ body{
   min-height: 100vh;
 }
 
+.logo{
+  position: absolute;
+  align-items: center;
+  left: 610px;
+  top: 50px;
+  width: 130px;
+  height: 55px;
+  background: url("../CSS/img/logo.png") no-repeat;
+  background-size: contain;
+}
+
 .login{
   position: absolute;
   width: 334px;
@@ -91,10 +102,10 @@ input::placeholder{
 
 #log-in{
   position: relative;
-  top: 200px;
-  right: 97px;
-  /*left: 97px;
-  top: 180px; */
+  /* top: 200px;
+  right: 97px; */
+  left: 97px;
+  top: 180px;
   width: 141px;
   height: 32px;
   background: #49B2B6;
@@ -117,7 +128,7 @@ input::placeholder{
   border: 2px solid #19f2faaf;
 }
 
-/* a{
+a{
   position: relative;
   left: 74px;
   top: 150px;
@@ -136,4 +147,5 @@ a:active{
 a:focus{
   outline: none;
   color:#19f2faaf;
-} */
+}
+
