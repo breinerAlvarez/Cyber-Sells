@@ -32,8 +32,10 @@ body{
 
 .login{
   position: absolute;
+  /* width: 334px;
+  height: 399px; */
   width: 334px;
-  height: 399px;
+  height: 300px;
   left: 516px;
   top: 134px;
   background: #587AA7;
@@ -49,7 +51,44 @@ body{
   font-weight: bold;
 }
 
-input[type="text"] 
+#log-in{
+  position: relative;
+  top: 130px;
+  left: 67px;
+  /* right: 97px;
+  top: 180px; */
+  width: 200px;
+  height: 32px;
+  background: #7cb4bc;
+  border-radius: 50px;
+  border: none;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size:16px;
+  color: #FFFFFF;
+}
+
+#log-in:hover{
+  cursor: pointer;
+  background: #a9dfad;
+}
+
+#log-in:focus{
+  outline: none;
+  border: 2px solid #19f2faaf;
+}
+
+#log-in span{
+  background: url(./img/google-logo.svg) no-repeat;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  margin-top: 3px;
+
+}
+/* input[type="text"] 
 {
   position: relative;
   width: 186px;
@@ -98,14 +137,14 @@ input::placeholder{
   font-style: normal;
   font-weight: normal;
   color: #FFFFFF;
-}
-
+} */
+/* 
 #log-in{
   position: relative;
-  /* top: 200px;
-  right: 97px; */
+  top: 200px;
   left: 97px;
-  top: 180px;
+  /* right: 97px;
+  top: 180px; 
   width: 141px;
   height: 32px;
   background: #49B2B6;
@@ -126,9 +165,10 @@ input::placeholder{
 #log-in:focus{
   outline: none;
   border: 2px solid #19f2faaf;
-}
+} */
 
-a{
+
+/* a{
   position: relative;
   left: 74px;
   top: 150px;
@@ -147,5 +187,5 @@ a:active{
 a:focus{
   outline: none;
   color:#19f2faaf;
-}
+} */
 
