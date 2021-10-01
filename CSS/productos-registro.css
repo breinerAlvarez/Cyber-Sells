@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html{
+    height: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+}
+
+body{
+    background: #49b2bc;
+    min-height: 100vh;
+}
+
+b{
+    font-weight: 600;
+}
+
+.parrafos{
+    padding-left: 40px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+#label{
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+
+.datos{
+    width: 320px ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 40px;
+    padding-top: 14px;
+}
+
+.nombres p{
+    padding: 0.2rem 0;
+}
+
+.entradas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 170px;
+}
+
+.entradas input{
+    margin: 0.2rem 0;
+    background: #D2E5D7;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding-left: 4px;
+    color: black;
+    font-family: Quicksand;
+    font-size: 14px;
+}
+
+.entradas input:focus{
+    outline: none;
+    border: 2px solid #325c92;
+}
+
+.entradas input:placeholder-shown{
+    text-decoration: underline;
+    color: #6F6E6E;
+}
+
+#tipo-id, #estado{
+    background: #D2E5D7;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    font-family: Quicksand;
+    font-size: 14px;
+}
+
+#tipo-id:focus, #estado:focus{
+    outline: none;
+    border: 2px solid #325c92;
+}
+
+#agregar-producto{
+    padding-left: 40px;
+    margin-top: 12px;
+    width: 270px;
+    height: 35px;
+    font-family: Quicksand;
+    color: #fff;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    text-align: left;
+}
+
+#agregar-producto:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#agregar-producto:focus{
+    outline: none;
+    text-decoration: underline;
+}
+
+#agregar-producto span{
+    background: url(./img/plus.png) no-repeat;
+    background-size: contain;
+    width: 34px;
+    height: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 4px 0px;
+}
+
+#agregar-producto span:hover{
+    background-size: cover;
+}
+#total{
+    padding-left: 40px;
+    margin: 0.2rem 0;
+}
+
+#total cite{
+    margin: 0.2rem 65px;
+    font-style: normal;
+}
+
+#editar-venta{
+    margin: 15px 0 0 120px ;
+    width: 170px;
+    height: 25px;
+    background: #587AA7;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+}
+
+#editar-venta:hover{
+    background: #a9dfad;
+    cursor: pointer;
+}
+
+#editar-venta:focus{    
+    outline: none;
+    text-decoration: underline;
+    background: #a9dfad;
+}
+
+#editar-venta span{
+    width: 20px;
+    height: 20px;
+    background: url(./img/guardar.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 13px;
+    padding: 4px 2px;
+    vertical-align: middle;
+}

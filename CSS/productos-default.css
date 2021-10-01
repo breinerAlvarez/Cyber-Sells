@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html{
+    height: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+
+body{
+    background: #49b2bc;
+    min-height: 100vh;
+}
+
+p{
+    position: absolute;
+    font-size: 27px;
+    line-height: 44px;
+    color: #FFFFFF;
+    top: 120px;
+    left: 95px;
+    right: 85px;
+}
