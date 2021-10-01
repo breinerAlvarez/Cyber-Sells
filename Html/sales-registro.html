@@ -1,48 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sales registro/edición | Cyber Sells</title>
-    <link rel="stylesheet" href="../CSS/sales-registro.css">
-</head>
-<body>
-    <section class="parrafos">
-        <p id="label">Factura N°. 1234</p>
-        <p>Fecha: 19/08/2021 </p>
-    </section>
-    <section class="datos">
-        <div class="nombres">
-            <p>Cliente:</p>
-            <p>Tipo de ID:</p>
-            <p>N°. de ID:</p>
-            <p>Estado:</p>
-            <p>Producto:</p>
-            <p>Cantidad:</p>
-        </div>
-        <div class="entradas">
-            <input type="text" placeholder="Nombre del cliente" ></input>
-            <select id="tipo-id" name="Tipo-ID">
-                <option value="" selected>Seleccione</option>
-                <option value="1">NIT</option>
-                <option value="2">Cédula de ciudadanía</option>
-                <option value="3">Cédula de extranjeria</option>
-                <option value="4">Tarjeta de identidad</option>
-            </select>
-            <input type="text" placeholder="Ej.: 0000000000 "></input>
-            <select id="estado" name="Estado">
-                <option value="" selected>Seleccione</option>
-                <option value="1">En proceso</option>
-                <option value="2">Cancelada</option>
-                <option value="3">Entregada</option>
-            </select>
-            <input type="text" placeholder="Ej.: Jabón de baño"></input>
-            <input type="text" placeholder="Ej.: 2"></input>
-        </div>
-    </section>
-    <button id="agregar-producto">Agregar otro producto <span></span></button>
-    <p id="total">Valor: <cite>$1'000,000.00</cite></p>
-    <button id="editar-venta"><span></span>Guardar factura</button>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sales registro/edición | Cyber Sells</title>
+        <link rel="stylesheet" href="../CSS/sales-registro.css">
+    </head>
+    <body>
+        <div id="label-frame"><p>Registrar/Editar factura</p></div>
+        <table id="meta-container">
+            <tr>
+            <th>
+                <section class="parrafos">
+                    <p id="label">Factura N°. 1234</p>
+                    <p>Fecha: 19/08/2021 </p>
+                </section>
+                <section class="datos">
+                    <div id="nombres">
+                        <p>Cliente:</p>
+                        <p>Tipo de ID:</p>
+                        <p>N°. de ID:</p>
+                        <p>Estado:</p>
+                        <p>Producto:</p>
+                        <p>Cantidad:</p>
+                    </div>
+                    <div id="entradas">
+                        <input type="text" placeholder="Nombre del cliente" ></input>
+                        <select id="tipo-id" name="Tipo-ID">
+                            <option value="" selected>Seleccione</option>
+                            <option value="1">NIT</option>
+                            <option value="2">Cédula de ciudadanía</option>
+                            <option value="3">Cédula de extranjeria</option>
+                            <option value="4">Tarjeta de identidad</option>
+                        </select>
+                        <input type="text" placeholder="Ej.: 0000000000 "></input>
+                        <select id="estado" name="Estado">
+                            <option value="" selected>Seleccione</option>
+                            <option value="1">En proceso</option>
+                            <option value="2">Cancelada</option>
+                            <option value="3">Entregada</option>
+                        </select>
+                        <input type="text" placeholder="Ej.: Jabón de baño"></input>
+                        <input type="text" placeholder="Ej.: 2"></input>
+                    </div>
+                </section>
+                <button id="agregar-producto">Agregar otro producto <span></span></button>
+                <p id="total">Valor: <cite>$1'000,000.00</cite></p>
+                <button id="guardar-factura"><span></span>Guardar factura</button>
+            </th>
+            </tr>
+        </table>  
+        <script src="../JavaScript/sales-registro.js"></script>
+    </body>
 </html>
