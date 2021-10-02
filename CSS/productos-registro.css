@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html{
+    height: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    background: #d2e5d7;
+    /* min-height: 100vh; */
+    top: 100px;
+}
+
+b{
+    font-weight: 600;
+}
+
+#label-frame{
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 80px;
+    background: #d2e5d7;
+    color: #000;
+    font-family: Quicksand;
+    position:fixed; 
+    top:0;
+    width: 100%;
+    height: 31px;
+}
+
+#meta-container{
+    border-radius: 15px;
+    border: 3px solid transparent;
+    margin-top: 31px;
+    background: #49b2bc;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.datos{
+    width: 320px ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 40px;
+    padding-top: 25px;
+    font-weight: normal;
+}
+
+#nombres p{
+    color: #000;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+#nombres{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#entradas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 170px;
+}
+
+#entradas input, #entradas select{
+    color: black;
+    font-family: Quicksand;
+    font-size: 14px;
+    background: #D2E5D7;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding-left: 4px;
+    margin-bottom: 15px;
+}
+
+#entradas input:focus{
+    outline: none;
+    border: 2px solid #325c92;
+}
+
+#entradas input:placeholder-shown{
+    text-decoration: underline;
+    color: #6F6E6E;
+}
+
+#tipo-id, #estado{
+    background: #D2E5D7;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    font-family: Quicksand;
+    font-size: 14px;
+}
+
+#tipo-id:focus, #estado:focus{
+    outline: none;
+    border: 2px solid #325c92;
+}
+
+#guardar-producto{
+    margin: 10px 0 5px 120px ;
+    width: 170px;
+    height: 25px;
+    background: #587AA7;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+}
+
+#guardar-producto:hover{
+    background: #a9dfad;
+    cursor: pointer;
+}
+
+#guardar-producto:focus{    
+    outline: none;
+    text-decoration: underline;
+    background: #a9dfad;
+}
+
+#guardar-producto span{
+    width: 20px;
+    height: 20px;
+    background: url(./img/guardar.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 13px;
+    padding: 4px 2px;
+    vertical-align: middle;
+}

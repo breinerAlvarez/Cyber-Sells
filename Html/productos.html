@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <title>Products management | Cyber Sells</title>
+    <link rel="icon" href="../CSS/img/favicon.ico">
+    <link rel="stylesheet" href="..\CSS\productos.css">
+</head>
+
+<body>
+    <nav>
+        <span id="logo"></span>
+        <div id="pestañas"><a href="" id="ventas">Ventas</a><a href="" id="productos">Productos</a><a href=""
+                id="usuarios">Usuarios</a></div>
+        <ul id="container-menu">
+            <li>
+                <button id="menu"><span></span></button>
+                <ul id="off">
+                    <li><button id="salir" onclick="location.href='./login.html'"><span></span>Cerrar sesión</button>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <section class="content">
+        <p id="gestor">Gestor de Productos</p>
+        <div id="busco-registro-container">
+            <ul id="container">
+                <li id="detonador">
+                    <button id="buscador"><span></span>Buscar</button>
+                    <ul id="inputs">
+                        <li><input type="text" placeholder="ID venta" id="first-input"></li>
+                        <li><input type="text" placeholder="ID vendedor"></li>
+                        <li><input type="date" placeholder="Fecha"></li>
+                    </ul>
+                </li>
+            </ul>
+            <button id="registrar">Registrar producto<span></span></button>
+        </div>
+        <div id="tabla-frame">
+            <div class="tabla">
+                <table id="tabla">
+                    <thead>
+                        <tr>
+                            <th>ID Producto</th>
+                            <th>Descripción</th>
+                            <th>Estado</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a id="link_1">12345</a></td>
+                            <td>Jabon de Baño</td>
+                            <td>Disponible</td>
+                            <td>6500</td>
+                        </tr>
+                        <tr>
+                            <td><a id="link_2">12346</a></td>
+                            <td>Desinfectante</td>
+                            <td>Agotado</td>
+                            <td>10800</td>
+                        </tr>
+                        <tr>
+                            <td><a id="link_3">12347</a></td>
+                            <td>Tapabocas</td>
+                            <td>Disponoble</td>
+                            <td>20300</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="frame">
+                <iframe id="frame" src="productos-default.html"></iframe>
+            </div>
+        </div>
+    </section>
+    <script src="../JavaScript/productos.js"></script>
+</body>
+
+</html>
