@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html{
+    height: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+}
+
+body{
+    background: #49b2bc;
+    min-height: 100vh;
+}
+
+b{
+    font-weight: 600;
+}
+
+#label{
+    font-size: 27px;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+.data{
+    padding-left: 40px;
+    padding-top: 14px;
+}
+
+.info{
+    padding-left: 40px;
+    padding-top: 14px;
+}
+
+table{
+    border-collapse: collapse;
+    color:#000;
+    text-align: center;
+}
+
+thead, tfoot{
+    background: #d2e5d7;
+}
+
+th, td{
+    padding: 3px;
+}
+
+#editar-venta{
+    margin-left: 80px;
+    margin-top: 16px;
+    width: 170px;
+    height: 30px;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    text-align: left;
+}
+
+#editar-venta span{
+    background: url(./img/editar.png) no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 32px;
+    margin-left: 14px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#editar-venta:focus{
+    outline: none;
+    text-decoration: underline;
+}
+
+#editar-venta:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#editar-venta span:hover{
+    background-size: cover;
+    cursor: pointer;
+}
+
