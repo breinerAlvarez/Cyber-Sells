@@ -33,7 +33,7 @@ function registrar() {
 }
 
 function moverDown() {
-  tabla.style.marginTop = "45px";
+  tabla.style.marginTop = "18px";
 }
 
 function moverUp() {

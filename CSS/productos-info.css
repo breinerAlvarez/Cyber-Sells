@@ -49,6 +49,13 @@ b{
     font-weight: normal;
 }
 
+#label{
+    font-size: 27px;
+    padding-left: 40px;
+    padding-top: 25px;
+    font-weight: normal;
+}
+
 .data{
     padding-left: 50px;
     padding-top: 25px;
