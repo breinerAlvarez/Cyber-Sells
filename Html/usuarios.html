@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <title>Users management | Cyber Sells</title>
+    <link rel="icon" href="../CSS/img/favicon.ico">
+    <link rel="stylesheet" href="..\CSS\usuarios.css">
+</head>
+
+<body>
+    <nav>
+        <span id="logo"></span>
+        <div id="pestañas"><a href="" id="ventas">Ventas</a><a href="" id="productos">Productos</a><a href=""
+                id="usuarios">Usuarios</a></div>
+        <ul id="container-menu">
+            <li>
+                <button id="menu"><span></span></button>
+                <ul id="off">
+                    <li><button id="salir" onclick="location.href='./login.html'"><span></span>Cerrar sesión</button>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <section class="content">
+        <p id="gestor">Gestor de Usuarios</p>
+        <div id="busco-registro-container">
+            <ul id="container">
+                <li id="detonador">
+                    <button id="buscador"><span></span>Buscar</button>
+                    <ul id="inputs">
+                        <li><input type="text" placeholder="ID usuario" id="first-input"></li>
+                        <li><input type="text" placeholder="Nombre del usuario"></li>
+                        <!-- <li><input type="date" placeholder="Fecha"></li> -->
+                    </ul>
+                </li>
+            </ul>
+            <button id="registrar">Registrar Usuario<span></span></button>
+        </div>
+        <div id="tabla-frame">
+            <div class="tabla">
+                <table id="tabla">
+                    <thead>
+                        <tr>
+                            <th>ID Usuario</th>
+                            <th>Nombre</th>
+                            <th>Rol</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a id="link_1">12345</a></td>
+                            <td>Juan Carlos Mendoza Osorio</td>
+                            <td>Vendedor</td>
+                            <td>Pendiente</td>
+                        </tr>
+                        <tr>
+                            <td><a id="link_1">12345</a></td>
+                            <td>Johan Enrique Pérez Martínez</td>
+                            <td>Admistrador</td>
+                            <td>Autorizado</td>
+                        </tr>
+                        <tr>
+                            <td><a id="link_1">12345</a></td>
+                            <td>Manuel Andrés Correa Hernández</td>
+                            <td>Vendedor</td>
+                            <td>No Autorizado</td>
+                        </tr>
+                        <tr>
+                            <td><a id="link_1">12345</a></td>
+                            <td>María Camila Lesmes Dossman</td>
+                            <td>Administrador</td>
+                            <td>Autorizado</td>
+                        </tr>
+                        <!--Celdas vacías-->
+                        <tr>
+                            <td><a id="link_5"></a></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><a id="link_6"></a></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="frame">
+                <iframe id="frame" src="usuarios-default.html"></iframe>
+            </div>
+        </div>
+    </section>
+    <script src="../JavaScript/usuarios.js"></script>
+</body>
+
+</html>

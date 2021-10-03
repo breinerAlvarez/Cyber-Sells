@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html{
+    height: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+
+body{
+    background: #d2e5d7;
+    min-height: 100vh;
+}
+
+nav{
+    background: #587aa7;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    background: url(./img/logo.png) no-repeat;
+    float: left;
+    width: 130px;
+    height: 55px;
+    margin-left: 20px;
+    margin-top: 32px;
+}
+
+#pestañas{
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    padding-top: 38px;
+    font-size: 20px;
+    line-height: 37px;
+    color: #000000;
+}
+
+#pestañas :first-child,
+#pestañas :nth-child(2),
+#pestañas :last-child{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+#pestañas :first-child:active,
+#pestañas :nth-child(2):active,
+#pestañas :last-child:active{
+    text-decoration: underline;
+}
+
+#pestañas :first-child:focus,
+#pestañas :nth-child(2):focus,
+#pestañas :last-child:focus{
+    outline: none;
+    text-decoration: underline;
+}
+
+#pestañas :first-child:visited,
+#pestañas :nth-child(2):visited,
+#pestañas :last-child:visited{
+    color: #000000;
+}
+
+#menu{
+    background: url(./img/menu.png) no-repeat;
+    background-size: contain;
+    float: right;
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: none;
+    padding: 0;
+    border: none;
+}
+
+#menu:hover{
+    cursor: pointer;
+}
+
+#salir{
+    width: 130px;
+    height: 24px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 0;
+    margin-top: 80px;
+}
+
+#salir:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#salir:focus{
+    outline: none;
+    text-decoration: underline;
+}
+
+#off li{
+    height: 0px;
+    width: 0px
+}
+
+#container-menu{
+    height: 24px;
+    width: 130px;
+}
+
+#salir span{
+    background: url(./img/off.png) no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 4px;;
+}
+
+#gestor{
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 47px;
+    padding-top: 12px;
+}
+
+#busco-registro-container{
+    display: flex;
+    width: 700px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0px;
+}
+
+#container{
+    margin-left: 40px;
+    margin-top: 12px;
+    width: 185px;
+    height: 24px;
+}
+
+#detonador{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li ul{
+    display:none;
+    list-style: none
+}
+
+ul li{
+    list-style: none;
+}
+
+input{
+    background: rgba(88, 122, 167, 0.5);
+    border: 1px solid #000000;
+    border-radius: 3px;
+    width: 185px;
+    height: 24px;
+    padding-left: 4px;
+    font-family: Quicksand;
+    font-size: 14px;
+}
+
+input:not(#first-input){
+    margin: 0.1rem 0;
+}
+
+input[type="date"]:hover{
+    cursor: text;
+}
+
+#inputs{
+    display: none;
+}
+
+#buscador{
+    width: 185px;
+    height: 24px;
+    font-size: 16px;
+    background: #587aa7;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#buscador:hover{
+    cursor: pointer;
+    background: #587aa7d2;
+}
+
+#buscador span{
+    background: url(./img/buscador.png) no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    margin-right: 18px;
+}
+
+#registrar{
+    margin-left: 210px;
+    margin-top: 9px;
+    width: 170px;
+    height: 30px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    text-align: left;
+}
+
+#registrar:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#registrar:focus{
+    outline: none;
+    text-decoration: underline;
+}
+
+#registrar span{
+    background: url(./img/plus.png) no-repeat;
+    background-size: contain;
+    width: 34px;
+    height: 32px;
+    margin-left: 14px;
+    margin-right: 12px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#registrar span:hover{
+    background-size: cover;
+}
+
+#tabla-frame{
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem 5rem 0 0.2rem;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 16px;
+    background-color: #7cb4bc;
+    text-align: center;
+    margin-left: 40px;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 0;
+}
+
+th{
+    font-weight: bold;
+    border: 2px solid #587AA7;
+    padding: 3px;
+} 
+
+td{
+    border: 2px solid #587AA7;
+    padding: 3px;
+    height: 20px;
+    font-weight: 500;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:hover, a:focus{
+    color: #a9dfad;
+}
+
+a:visited{
+    color: #000000;
+}
+
+iframe{
+    width: 450px;
+    height: 384px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 0px;
+}
+

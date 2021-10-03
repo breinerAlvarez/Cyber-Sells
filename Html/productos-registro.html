@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos registro/edición | Cyber Sells</title>
+    <link rel="stylesheet" href="../CSS/productos-registro.css">
+</head>
+
+<body>
+    <div id="label-frame">
+        <p>Registrar/Editar Producto</p>
+    </div>
+    <table id="meta-container">
+        <tr>
+            <th>
+                <section class="datos">
+                    <div id="nombres">
+                        <p>Descripción:</p>
+                        <p>Estado:</p>
+                        <p>Valor:</p>
+                    </div>
+                    <div id="entradas">
+                        <input type="text" placeholder="Descripción del producto"></input>
+                        <select id="estado" name="Estado">
+                            <option value="" selected>Seleccione</option>
+                            <option value="1">Disponible</option>
+                            <option value="2">No disponible</option>
+                        </select>
+                        <input type="text" placeholder="Ej.: 0000000000 "></input>
+                    </div>
+                </section>
+                <button id="guardar-producto"><span></span>Guardar Producto</button>
+            </th>
+        </tr>
+    </table>
+    <script src="../JavaScript/sales-registro.js"></script>
+</body>
+
+</html>
