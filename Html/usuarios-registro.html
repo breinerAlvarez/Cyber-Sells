@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios registro/edición | Cyber Sells</title>
+    <link rel="stylesheet" href="../CSS/usuarios-registro.css">
+</head>
+
+<body>
+    <div id="label-frame">
+        <p>Registrar/Editar Usuario</p>
+    </div>
+    <table id="meta-container">
+        <tr>
+            <th>
+                <section class="datos">
+                    <div id="nombres">
+                        <p>Nombre:</p>
+                        <p>Rol:</p>
+                        <p>Estado:</p>
+                    </div>
+                    <div id="entradas">
+                        <input type="text" placeholder="Nombre de Usuario"></input>
+                        <select id="rol" name="Rol">
+                            <option value="" selected>Seleccione</option>
+                            <option value="1">Vendedor</option>
+                            <option value="2">Administrador</option>
+                        </select>
+                        <select id="estado">
+                            <option value= "" selected>Seleccione</option>
+                            <option value="1">Autorizado</option>
+                            <option value="2">No Autorizado</option>
+                        </select>
+
+                    </div>
+                </section>
+                <button id="guardar-usuario"><span></span>Guardar Usuario</button>
+            </th>
+        </tr>
+    </table>
+    <script src="../JavaScript/usuarios-registro.js"></script>
+</body>
+
+</html>

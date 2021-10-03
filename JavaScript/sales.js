@@ -8,7 +8,7 @@ let tabla = document.getElementById("tabla-frame");
 let menu = document.getElementById("menu");
 let salida = document.getElementById("off");
 let productos = document.getElementById("productos");
-// let usuarios = document.getElementById("usuarios");
+let usuarios = document.getElementById("usuarios");
 let ruta_factura = "sales-info.html";
 let ruta_registro = "sales-registro.html";
 
@@ -17,7 +17,7 @@ registro.addEventListener("click", registrar);
 link.addEventListener("click", linkear);
 buscador.addEventListener("click", mantainSecond);
 menu.addEventListener("click", mantain);
-// usuarios.addEventListener("click", changePage);
+usuarios.addEventListener("click", changePageUsuarios);
 productos.addEventListener("click", changePage);
 
 
@@ -60,3 +60,6 @@ function changePage() {
   productos.setAttribute('href', './productos.html');
 }
 
+function changePageUsuarios() {
+  usuarios.setAttribute('href', './usuarios.html');
+}
